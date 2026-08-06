@@ -397,4 +397,25 @@ nav ul{
     font-size:24px;
     font-weight:bold;
 }
+#testimoni{
+    background:#111;
+}
+
+#testimoni h2{
+    color:#fff;
+}
+
+#testimoni .card{
+    border:none;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+#testimoni .card:hover{
+    transform:translateY(-5px);
+}
+
+#testimoni .card-text{
+    color:#555;
+}
 
