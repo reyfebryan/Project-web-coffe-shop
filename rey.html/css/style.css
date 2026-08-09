@@ -419,3 +419,55 @@ nav ul{
     color:#555;
 }
 
+.payment {
+    padding: 120px 20px 50px;
+    text-align: center;
+    min-height: 100vh;
+    background-color: #1a0f0a;
+    color: white;
+}
+
+.payment h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.payment > p {
+    margin-bottom: 35px;
+    color: #ccc;
+}
+
+.payment-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.payment-card {
+    width: 280px;
+    padding: 25px;
+    background-color: #a97763;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+.payment-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.payment-card p {
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.payment-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 15px auto;
+    display: block;
+}
