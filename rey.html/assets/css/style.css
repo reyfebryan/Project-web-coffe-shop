@@ -347,15 +347,21 @@ nav ul{
     color:#2c1810;
 }
 
-.menu-container{
-    display:flex;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
+.menu-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    align-items: start;
+}
 }
 
 .card{
-    width:320px;
+    width:100%;
     background:#fff;
     border-radius:20px;
     overflow:hidden;
@@ -370,13 +376,14 @@ nav ul{
 
 .card img{
     width:100%;
-    height:auto;
+    height: 220px;;
     object-fit:contain
     display:block;
 }
 
 .card-body{
-    padding:20px;
+    padding:12px;
+    text-align: center;
 }
 
 .card-body h3{
