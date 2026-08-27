@@ -68,7 +68,7 @@ nav ul li a:hover {
 
     background:
         linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-        url(/assets/img/fotokopi.jpeg);
+        url(../img/fotokopi.jpeg);
 
     background-size: cover;
     background-position: center;
